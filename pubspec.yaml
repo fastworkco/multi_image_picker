@@ -3,6 +3,10 @@ description: Flutter plugin that allows you to display multi image picker on iOS
 version: 4.7.14
 homepage: https://github.com/Sh1d0w/multi_image_picker
 
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+  flutter: ">=1.12.13 <2.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -22,6 +26,3 @@ flutter:
       ios:
         pluginClass: MultiImagePickerPlugin
 
-environment:
-    sdk: ">=2.0.0 <3.0.0"
-    flutter: ">=1.12.13 <2.0.0"

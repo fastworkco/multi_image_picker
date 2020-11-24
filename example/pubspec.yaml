@@ -1,6 +1,11 @@
 name: multi_image_picker_example
 description: Demonstrates how to use the multi_image_picker plugin.
 
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+  flutter: ">=1.12.13 <2.0.0"
+
+
 dependencies:
   flutter:
     sdk: flutter

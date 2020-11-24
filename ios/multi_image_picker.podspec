@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/Sh1d0w/multi_image_picker'
+  s.homepage         = 'https://github.com/fastworkco/multi_image_picker'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Radoslav Vitanov' => 'radoslav.vitanov@icloud.com' }
   s.source           = { :path => '.' }
@@ -19,6 +19,6 @@ A new flutter plugin project.
 
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.swift_version = '5.0'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 end
 
